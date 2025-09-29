@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face{
+            font-family: "Sexy Beauty";
+            src: url(fonts/Sexy\ Beauty.ttf) format("truetype"), /* URL extra */;
+}
+font-family: Pacifico
+font-family: "Sexy Beauty",
