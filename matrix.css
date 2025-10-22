@@ -1,0 +1,91 @@
+:root{
+    /*verde:*/
+    --verde0: #b1d25a;
+    --verde1: #91b532;
+    --verde2: #729518; 
+    --verde3: #537202;
+    --verde4: #354a00;
+
+    /*fontes*/
+    --fonte-Pacifico: Pacifico;
+    --fonte-Kaushan: Kaushan Script;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: azure;
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to right, var(--verde2), var(--verde3), var(--verde0));
+    padding: 5%;
+    border: 3px;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav{
+    background-color: var(--lilas2);
+    padding: 8px;
+    background-color: #354a00;
+    font-size: 20px;
+    box-shadow: 0px 7px 9px 4px;
+}
+
+nav > a{
+    color: rgba(255, 255, 255, 0.825);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: var(--verde0);
+    transition-duration: 0.3s;
+}
+
+
+@media (max-width: 760px){
+    .container{
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+.container img{ 
+    max-width: 450px;
+    height: auto;
+    box-shadow: 5px;
+    margin: auto;
+}
+
+.container p{
+    max-width: 600px;
+    text-indent: 5px;
+    background-color: #729518;
+    padding: 15px;
+    border: 5px;
+    border-style: dotted;
+    box-shadow: 5px;
+}
+
+h3{
+    background-color: rgb(230, 199, 162);
+    border-style: dashed;
+    border-color: rgb(65, 64, 64);
+    width: 300px;
+    margin: auto;
+    padding: auto;
+}
